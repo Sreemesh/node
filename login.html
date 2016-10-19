@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css">
+    <script src="jquery/dist/jquery.min.js"></script>
+    <script src="jq.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <body>
+        <section class="logpage  col-xs-12 ">
+            <h2 class="text-center">Login Page</h2>
+            <div class="col-xs-offset-5">
+                <form name="form_name1" action="home2" method="post">
+                    <div class="form-group">
+                        <label>Username:</label>
+                        <input placeholder="username" id="send_user" name="loguser" type="text" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Password:</label>
+                        <input placeholder="password" name="logpass" type="password">
+                    </div>
+                    <div class="col-xs-offset-1">
+                        <input class="log" type="submit" id="logg" value="Log In">
+                        <a href="home">
+                            <input class="log" type="button" value="Cancel">
+                    </div>
+                </form>
+                <a href="forgotpass"> <span class="para col-xs-offset-1">Forgot Password ???</span> </a>
+            </div>
+            <div class="clear"></div>
+        </section>
+    </body>
+
+</html>

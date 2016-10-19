@@ -1,0 +1,130 @@
+.homepage {
+    background-color: #9bfbe4;
+}
+.logpage {
+    margin-top: 30px;
+    padding-top: 20px;
+    background-color: cyan;
+    padding-bottom: 50px;
+}
+.signpage input {
+    color: red;
+}
+.logs {
+    font-family: fantasy;
+    font-size: 18px;
+}
+#m {
+    font-style: italic;
+    font-family: monospace;
+    font-size: 30px;
+}
+.signpage {
+    background-color: green;
+    color: white;
+    padding-bottom: 50px;
+}
+.box {
+    border: 1px solid black;
+}
+.pull-left,
+.pull-right {
+    font-weight: bolder;
+}
+.font {
+    color: #ff9800;
+    font-weight: bold;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 50px;
+}
+a {
+    color: white;
+}
+#books div last-child() {
+    border: none;
+}
+h4 {
+    font-size: 30px;
+    color: red;
+}
+header {
+    background-color: #2196f3;
+    padding-top: 1%;
+}
+.block {
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding-top: 30px;
+}
+.content {
+    font-family: cursive;
+}
+.clear {
+    clear: both;
+}
+.frst {
+    background-color: #ecdd58;
+}
+.scnd {
+    background-color: orange;
+}
+img {
+    width: 200px;
+    height: 300px;
+}
+.content::first-letter {
+    font-size: 250%;
+    color: green;
+}
+.frgt {
+    padding-top: 20px;
+}
+.frgt1 {
+    margin-top: 30px;
+    background-color: green;
+}
+.chnage {
+    margin-top: 30px;
+    background-color: #55aef5;
+}
+button {
+    background-color: green;
+    color: white;
+    border: none;
+    font-family: fantasy;
+    font-size: 18px;
+}
+h2 {
+    text-transform: uppercase;
+    margin: 0px 0px 50px 0px;
+}
+.logpage button {
+    background-color: orange;
+    border: none;
+    color: white;
+}
+.sign {
+    background-color: #92f14a;
+    border: none;
+    font-weight: bold;
+}
+.log,
+.btn {
+    background-color: orange;
+    border: none;
+    color: white;
+}
+.para {
+    border: none;
+    background-color: transparent;
+    color: #3da1ea;
+}
+.edit,
+.save {
+    color: #33e415;
+    font-weight: bolder;
+}
+.adds {
+    color: black;
+}
